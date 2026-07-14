@@ -60,8 +60,8 @@ Update the **application.properties** file with your MySQL configuration.
 
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/studentdb
-spring.datasource.username=root
-spring.datasource.password=your_password
+spring.datasource.username=your_MySqlusername
+spring.datasource.password=your_MySqlpassword
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
@@ -140,7 +140,6 @@ You can test all REST endpoints using:
 - Postman
 - Talend API Tester
 - Thunder Client (VS Code)
-- Insomnia
 
 ---
 
